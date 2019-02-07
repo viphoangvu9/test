@@ -46,6 +46,7 @@
         "cs-fix": "phpcbf --colors --standard=vendor/cakephp/cakephp-codesniffer/CakePHP src/ tests/",
         "test": "phpunit --colors=always"
     },
+    "post-autoload-dump": "Cake/Composer/Installer/PluginInstaller::postAutoloadDump",
     "prefer-stable": true,
     "config": {
         "sort-packages": true
